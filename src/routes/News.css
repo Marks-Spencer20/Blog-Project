@@ -45,4 +45,35 @@
   .grid-item:hover {
     transform: translateY(-5px); /* Move grid item up on hover */
   }
+
+  #cedi {
+    background-image:url('../images/cedi.jpeg');
+    background-size: cover;
+    color: #99ff00;
+    z-index: 2;
+  }
   
+  #cedi {
+    position: relative;
+  }
+  
+  #cedi::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  }
+  
+  #health {
+    background-image:url('../images/health.jpeg');
+    background-size: cover;
+    
+  }
+
+  #voterId {
+    background-image:url('../images/voterId.jpg');
+    background-size: cover;
+  }
