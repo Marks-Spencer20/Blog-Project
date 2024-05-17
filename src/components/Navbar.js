@@ -3,6 +3,7 @@ import "./Navbar.css"
 import logo from '../images/blog.png'
 
  const Navbar = () => {
+  
   return (
     <div className="nav">
     <nav className="navbar">
