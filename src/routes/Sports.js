@@ -19,7 +19,7 @@ const Sports = () => {
   </div>
   <div className='heading'>
     <h1>
-      hello Marksss
+      hello Markss
     </h1>
   </div>
 </div>
