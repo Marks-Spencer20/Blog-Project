@@ -1,0 +1,11 @@
+.container{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #696969;
+}
+.heading{
+    display: inline-flex;
+    width: 100%;
+    background-color: red;
+}
