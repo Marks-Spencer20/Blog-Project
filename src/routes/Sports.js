@@ -18,9 +18,9 @@ const Sports = () => {
   <img src={pic1} alt='pic1' className='pic1' width='250px'/> 
   </div>
   <div className='heading'>
-    <h1>
+    <h5>
       hello Markss
-    </h1>
+    </h5>
   </div>
 </div>
 export default Sports;

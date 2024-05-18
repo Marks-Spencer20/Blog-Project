@@ -7,10 +7,9 @@ const Football = () => {
   return (
     
     
-    <div className='container'>
+    <div >
          <Navbar/>
          <SportsNavbar/>
-       <h1>football</h1> 
     </div>
   )
 }
