@@ -24,7 +24,7 @@ text-align: center;
 .sub-heading{
     display: inline-flex;
     width: 100%;
-    background-color: ;
+    background-color: none;
     padding: 25px;
 }
 .text2{
