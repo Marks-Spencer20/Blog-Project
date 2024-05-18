@@ -3,9 +3,27 @@
     display: flex;
     justify-content: space-between;
     background-color: #696969;
+    margin-top: 10px;
 }
-.heading{
+.picture{
+    margin-left: 0px;
+}
+.heading {
+background-color: aqua;
+text-align: center;
+}
+.text1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+
+}
+.sub-heading{
     display: inline-flex;
     width: 100%;
-    background-color: red;
+    background-color: ;
+    padding: 25px;
+}
+.text2{
+    font-family: 'Franklin Gothic Medium';
+    font-size: 40px;
 }
