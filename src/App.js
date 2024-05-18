@@ -6,6 +6,8 @@ import Sports from './routes/Sports';
 import About from './routes/About';
 import Home from './routes/Home';
 import Football from './routes/Football';
+import Tenis from './routes/Tenis';
+import Netball from './routes/Netball';
 
 const App = () => {
   return (
@@ -20,6 +22,9 @@ const App = () => {
           <Route path="/Sports" element={<Sports/>}/>
           <Route path="/About" element={<About/>}/>
           <Route path="/Football" element={<Football/>}/>
+          <Route path="/Tenis" element={<Tenis/>}/>
+          <Route path="/Netball" element={<Netball/>}/>
+
           
           
       </Routes>

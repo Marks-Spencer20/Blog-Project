@@ -8,8 +8,11 @@ import leverkusen from '../images/leverkusen.jpg'
 import argentina from '../images/argentina.jpg'
 import laporta from '../images/laporta.jpg'
 import thomastuchel from '../images/thomastuchel.jpg'
-
-
+import dybala from '../images/dybala.jpg'
+import mbappeanddavies from '../images/mbappeanddavies.jpg'
+import mouting from '../images/mouting.jpg'
+import tenisday from '../images/tenisday.jpg'
+import tenisfinal from '../images/tenisfinal.jpg'
 
 
 const Sports = () => {
@@ -95,11 +98,85 @@ const Sports = () => {
 
 <div className='container'>
   <div className='picture'>
+  <img src={dybala} alt='pic1' className='pic1' width='200px'/> 
+  </div>
+  <div className='sub-heading'>
+    <h4 className='text2'>
+      Paulo Ezequiel Dybala is set to joined the FC Barcelona 
+      next season as a free agent from the Italian side. 
+      Is this a good move by the Argentine to join the Blaugrana?
+    </h4>
+  </div>
+</div>
+
+<div className='container'>
+  <div className='picture'>
+  <img src={mbappeanddavies} alt='pic1' className='pic1' width='200px'/> 
+  </div>
+  <div className='sub-heading'>
+    <h4 className='text2'>
+    Real Madrid is trying their best to convince Alphonso Davies, the Canadian 
+    superstar to join Kylian Mbappe to sign for the Galticos next season. This 
+    deal is a going to be a  must watch for most La Liga followers.
+    </h4>
+  </div>
+</div>
+
+<div className='container'>
+  <div className='picture'>
+  <img src={mouting} alt='pic1' className='pic1' width='200px'/> 
+  </div>
+  <div className='sub-heading'>
+    <h4 className='text2'>
+      Eric Choupo-Mouting has being linked to FC Barcelona this 
+      summer on a one-year loan deal. The Cameronian is very 
+      happy about this deal and he has an optimistic feeling that 
+      the deal will be possible.
+    </h4>
+  </div>
+</div>
+
+<div className='heading1'>
+    <h5 className='text1'>
+      More News
+    </h5>
+  </div>
+
+
+<div className='container'>
+  <div className='picture'>
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h4>
-      hello Markss
+    <h4 className='text2'>
+      Aitana Bonmatti, the FC Barcelona Womens team captian wins 
+      the Laureus Sportslady of the year Award for the first time.
+      This athlete joins Lionel Messi as the only football athletes 
+      to win this award and the fifa balon dor award.
+    </h4>
+  </div>
+</div>
+
+<div className='container'>
+  <div className='picture'>
+  <img src={tenisday} alt='pic1' className='pic1' width='200px'/> 
+  </div>
+  <div className='sub-heading'>
+    <h4 className='text2'>
+      Enjoy the weekend from this side
+    </h4>
+  </div>
+</div>
+
+<div className='container'>
+  <div className='picture'>
+  <img src={tenisfinal} alt='pic1' className='pic1' width='200px'/> 
+  </div>
+  <div className='sub-heading'>
+    <h4 className='text2'>
+      The womens ATP tenis final between Iag Swiatek 
+      vs Aryna Sabalenka will be held at Madrid this 
+      year. Who are you rooting for?
     </h4>
   </div>
 </div>
@@ -109,9 +186,9 @@ const Sports = () => {
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h4>
+    <h1 className='text2'>
       hello Markss
-    </h4>
+    </h1>
   </div>
 </div>
 
@@ -120,9 +197,9 @@ const Sports = () => {
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h4>
+    <h1 className='text2'>
       hello Markss
-    </h4>
+    </h1>
   </div>
 </div>
 
@@ -131,9 +208,9 @@ const Sports = () => {
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h4>
+    <h1 className='text2'>
       hello Markss
-    </h4>
+    </h1>
   </div>
 </div>
 
@@ -142,9 +219,9 @@ const Sports = () => {
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h4>
+    <h1 className='text2'>
       hello Markss
-    </h4>
+    </h1>
   </div>
 </div>
 
@@ -153,7 +230,7 @@ const Sports = () => {
   <img src={aitana} alt='pic1' className='pic1' width='200px'/> 
   </div>
   <div className='sub-heading'>
-    <h1>
+    <h1 className='text2'>
       hello Markss
     </h1>
   </div>
