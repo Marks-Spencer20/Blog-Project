@@ -5,6 +5,7 @@ import News from './routes/News';
 import Sports from './routes/Sports';
 import About from './routes/About';
 import Home from './routes/Home';
+import Football from './routes/Football';
 
 const App = () => {
   return (
@@ -18,6 +19,8 @@ const App = () => {
           <Route path="/News" element={<News/>}/>
           <Route path="/Sports" element={<Sports/>}/>
           <Route path="/About" element={<About/>}/>
+          <Route path="/Football" element={<Football/>}/>
+          
           
       </Routes>
       
