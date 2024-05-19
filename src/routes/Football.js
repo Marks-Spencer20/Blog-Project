@@ -2,9 +2,9 @@ import React from 'react'
 import "./Home.css"
 import Navbar from '../components/Navbar'
 import SportsNavbar from '../components/SportsNavbar'
-import aitana from '../images/aitana.jpg'
+import aitana from '../images/Sports/aitana.jpg'
 import "./Sports.css"
-import foden from '../images/foden.jpg'
+import foden from '../images/Sports/foden.jpg'
 
 
 

@@ -2,9 +2,9 @@ import React from 'react'
 import "./Home.css"
 import Navbar from '../components/Navbar'
 import SportsNavbar from '../components/SportsNavbar'
-import tenisday from '../images/tenisday.jpg'
+import tenisday from '../images/Sports/tenisday.jpg'
 import "./Sports.css"
-import tenisfinal from '../images/tenisfinal.jpg'
+import tenisfinal from '../images/Sports/tenisfinal.jpg'
 
 
 

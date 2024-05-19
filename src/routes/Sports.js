@@ -2,17 +2,17 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import SportsNavbar from '../components/SportsNavbar';
 import "./Sports.css"
-import aitana from '../images/aitana.jpg'
-import xavi from '../images/xavi.jpg'
-import leverkusen from '../images/leverkusen.jpg'
-import argentina from '../images/argentina.jpg'
-import laporta from '../images/laporta.jpg'
-import thomastuchel from '../images/thomastuchel.jpg'
-import dybala from '../images/dybala.jpg'
-import mbappeanddavies from '../images/mbappeanddavies.jpg'
-import mouting from '../images/mouting.jpg'
-import tenisday from '../images/tenisday.jpg'
-import tenisfinal from '../images/tenisfinal.jpg'
+import aitana from '../images/Sports/aitana.jpg'
+import xavi from '../images/Sports/xavi.jpg'
+import leverkusen from '../images/Sports/leverkusen.jpg'
+import argentina from '../images/Sports/argentina.jpg'
+import laporta from '../images/Sports/laporta.jpg'
+import thomastuchel from '../images/Sports/thomastuchel.jpg'
+import dybala from '../images/Sports/dybala.jpg'
+import mbappeanddavies from '../images/Sports/mbappeanddavies.jpg'
+import mouting from '../images/Sports/mouting.jpg'
+import tenisday from '../images/Sports/tenisday.jpg'
+import tenisfinal from '../images/Sports/tenisfinal.jpg'
 
 
 const Sports = () => {
