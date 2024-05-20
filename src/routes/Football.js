@@ -129,7 +129,9 @@ const Football = () => {
   </div>
   <div className='sub-heading'>
     <h1 className='text2'>
-     The Holland team coach
+     The Holland team coach Ronald Koeman has named his squad for 
+     the upcoming EURO tournamet. Huge blow to him as Frenkie De 
+     Jong is out because of injury.
     </h1>
   </div>
 </div>

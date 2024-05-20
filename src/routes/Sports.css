@@ -112,6 +112,9 @@ body {
     height: 230px;
     padding-top: 10px;
 }
+.picture:hover{
+  cursor: pointer;
+}
 .container{
     width: 100%; 
     display: flex;
@@ -130,6 +133,7 @@ background-color: aqua;
     font-family: 'Times New Roman', Times, serif;
     font-size: 100px;
     text-align: center;
+    cursor: pointer;
 }
 .sub-heading{
     display: inline-flex;
@@ -140,4 +144,27 @@ background-color: aqua;
 .text2{
     font-family: 'Franklin Gothic Medium';
     font-size: 30px;
+}
+.text1:hover,
+.text2:hover{
+  cursor: pointer;
+ 
+}
+
+/* Basic styling for the container */
+.image-container {
+  width: 300px;
+  overflow: hidden; /* Ensure the image doesn't overflow the container */
+  margin: 0 auto;
+}
+
+/* Styling for the image */
+.expandable-image {
+  width: 100%;
+  transition:cubic-bezier(0.455, 0.03, 0.515, 0.955) /* Smooth transition for the scaling effect */
+}
+
+/* Hover effect */
+.expandable-image:hover {
+  transform: scale(1.5); /* Scale the image up to 1.2 times its original size */
 }
