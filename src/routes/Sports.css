@@ -1,5 +1,119 @@
+:root {
+    --font-size: 16px;
+  }
+  
+  body {
+    font-size: var(--font-size);
+  }
+  
+  @media (min-width: 600px) {
+    :root {
+      --font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    :root {
+      --font-size: 20px;
+    }
+  }
+  
+  body {
+    font-size: 16px;
+  }
+  
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+  .hero {
+    height: 100vh; /* Full viewport height */
+  }
+  
+  .text {
+    font-size: 5vw; /* Font size relative to viewport width */
+  }
+ 
+  img, video {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .container {
+    width: 80%; /* Instead of a fixed width */
+    margin: 0 auto; /* Center the container */
+  }
+  
+  .text {
+    font-size: 1.2em; /* Relative to the parent element's font size */
+  }
+
+  .container {
+    
+    flex-direction: column;
+  }
+  
+  @media (min-width: 600px) {
+    .container {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+  
+  @media (min-width: 600px) {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
+  
+  /* Base styles for all devices */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Styles for tablets and above */
+  @media (min-width: 600px) {
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* Styles for desktops and above */
+  @media (min-width: 1024px) {
+    body {
+      font-size: 20px;
+    }
+  }
+  
+.pic1{
+    width: 320px;
+    height: 230px;
+    padding-top: 10px;
+}
 .container{
-    width: 100%;
+    width: 100%; 
     display: flex;
     justify-content: space-between;
     background-color: #696969;
@@ -9,7 +123,7 @@
 background-color: aqua;
 }
 .heading1{
-    background-color: rgb(230, 95, 223);
+    background-color: rgb(0, 255, 255);
     margin-top: 10px;
 }
 .text1{
@@ -25,5 +139,5 @@ background-color: aqua;
 }
 .text2{
     font-family: 'Franklin Gothic Medium';
-    font-size: 40px;
+    font-size: 30px;
 }

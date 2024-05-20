@@ -33,31 +33,25 @@ ul{
 
 .sportsnav-link{
     display: flex;
-    margin-right: 70px;
     text-decoration: none;
+    width: 100%;
 }
 
 .sportsnav-links{
     margin-left: 20px;
-    margin-right: 20px;
     list-style-type: none;
     font-size: 15px;
     padding: 18px;
     list-style: none;
     justify-content: space-between;
-    margin-right: 170px;
+    margin-right: 50px;
 }
 .sportsnav-link a{
+    display: flex;
     text-decoration: none;
     color: white;
 }
-.sportsnav-linkss{
-    padding: 18px;
-    margin-right: 15px;
-}
 .icon{
-    
-
     list-style: none;
     font-size: 15px;
     
