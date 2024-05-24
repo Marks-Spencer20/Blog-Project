@@ -36,9 +36,10 @@ const Football = () => {
   </div>
   <div className='sub-heading'>
     <h1 className='text2'>
-      Cole "the Cold" Palmer  wins the Premier League U-23 Player of the season.
+    <a href='https://onefootball.com/en/news/cole-palmer-crowned-premier-leagues-young-player-of-the-season-39504440'>
+      Cole "the Cold" Palmer  wins the Premier League Young Player of the season.
       This season has being a phenomental season for the youngster for providing 
-      double numbers for both goals and assist in the league.
+      double numbers for both goals and assist in the league.</a> 
     </h1>
   </div>
 </div>
@@ -49,9 +50,10 @@ const Football = () => {
   </div>
   <div className='sub-heading'>
     <h1 className='text2'>
+    <a href='https://www.thecable.ng/phil-foden-wins-epl-player-of-the-season-award/'> 
       Phil Foden wins the Premier League Player of the season.
       This season has being a phenomental season for the youngster 
-      and it is also an incredible acgievement.
+      and it is also an incredible acgievement.</a> 
     </h1>
   </div>
 </div>
